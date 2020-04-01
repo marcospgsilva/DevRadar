@@ -93,26 +93,23 @@ function Main({ navigation }) {
                     </Marker>
                 ))}
             </MapView>
-            <KeyboardAvoidingView contentContainerStyle={{ flex: 1 }} behavior="position" keyboardVerticalOffset={50} >
-                <View style={styles.searchForm}>
-
-                    <TextInput
-                        style={styles.searchInput}
-                        placeholder="Buscar devs por techs..."
-                        placeholderTextColor="#999"
-                        autoCapitalize="words"
-                        autoCorrect={false}
-                        value={techs}
-                        onChangeText={setTechs}
-                    />
-                    <TouchableOpacity
-                        style={styles.loadButton}
-                        onPress={loadDevs}
-                    >
-                        <MaterialIcons name="my-location" size={20} color="#FFF" />
-                    </TouchableOpacity>
-                </View>
-            </KeyboardAvoidingView>
+            <View style={styles.searchForm}>
+                <TextInput
+                    style={styles.searchInput}
+                    placeholder="Buscar devs por techs..."
+                    placeholderTextColor="#999"
+                    autoCapitalize="words"
+                    autoCorrect={false}
+                    value={techs}
+                    onChangeText={setTechs}
+                />
+                <TouchableOpacity
+                    style={styles.loadButton}
+                    onPress={loadDevs}
+                >
+                    <MaterialIcons name="my-location" size={20} color="#FFF" />
+                </TouchableOpacity>
+            </View>
         </>
 
     )
