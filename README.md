@@ -2,11 +2,9 @@
 
 <h3 align="center"> Criada com a stack <img src="imgReadme/react.png" alt="react" height="18"> React, <img src="imgReadme/react-native.png" alt="react-native" height="18"> React Native e <img src="imgReadme/node.png" alt="node" height="18"> Node</h3>
 
-<div align="center">
 ![](imgReadme/devradar1.gif)
 ![](imgReadme/devradar2.gif)
 ![](imgReadme/devradar3.gif)
-</div>
 
 ## Available Scripts
 
