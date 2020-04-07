@@ -1,3 +1,4 @@
+<div align="center"><img src="imgReadme/logoDevRadar.png" alt="DevRadar"></div>
 <h2 align="center"> Aplicação para Encontrar Devs na proximidade de até 10km </h2>
 
 <h3 align="center"> Criada com a stack <img src="imgReadme/react.png" alt="react" height="18"> React, <img src="imgReadme/react-native.png" alt="react-native" height="18"> React Native e <img src="imgReadme/node.png" alt="node" height="18"> Node</h3>
